@@ -88,7 +88,7 @@ If the commit you want to build is less than 90 days old, you can also find the 
 
 ## Forge 1.21.11 quick install
 1. Install **Forge 1.21.11** (loader **61.x**) from the official Forge installer downloads: https://files.minecraftforge.net/net/minecraftforge/forge/
-2. Download the latest CI artifacts directly: https://nightly.link/cabaletta/baritone/workflows/gradle_build.yml/master/artifacts.zip
+2. Download the latest CI artifacts directly from the `master` workflow: https://nightly.link/cabaletta/baritone/workflows/gradle_build.yml/master/artifacts.zip
 3. Extract the downloaded zip and open the artifact that contains the Forge jar.
 4. Copy `baritone-api-forge-*.jar` into your Minecraft `mods` folder for your Forge 1.21.11 profile.
 5. Launch Minecraft with that Forge profile and run `#help` in chat to confirm Baritone loaded.
