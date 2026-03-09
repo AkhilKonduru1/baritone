@@ -85,3 +85,11 @@ you can push a dummy commit to trigger it and have GitHub build Baritone for you
 
 If the commit you want to build is less than 90 days old, you can also find the corresponding workflow run in
 [this list](https://github.com/cabaletta/baritone/actions/workflows/gradle_build.yml) and download the artifacts from there.
+
+## Forge 1.21.11 quick install
+1. Install **Forge 1.21.11** (loader **61.x**) from the official Forge installer downloads: https://files.minecraftforge.net/net/minecraftforge/forge/
+2. Open the Baritone workflow runs page: https://github.com/cabaletta/baritone/actions/workflows/gradle_build.yml
+3. Open the latest successful run for the branch/commit you want.
+4. Download the artifact that contains the Forge jar and extract it.
+5. Copy `baritone-api-forge-*.jar` into your Minecraft `mods` folder for your Forge 1.21.11 profile.
+6. Launch Minecraft with that Forge profile and run `#help` in chat to confirm Baritone loaded.
